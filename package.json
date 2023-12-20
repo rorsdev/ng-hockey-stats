@@ -41,6 +41,6 @@
     "typescript": "~5.1.3"
   },
   "simple-git-hooks": {
-    "pre-push": "ng build"
+    "pre-commit": "ng build && git add ."
   }
 }
