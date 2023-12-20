@@ -1,7 +1,24 @@
+.containerApp {
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+}
+
+.header {
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+}
+
+.content {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: auto;
+    overflow-y: auto;
+}
+
 .footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    text-align: center;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: 40px;
 }
